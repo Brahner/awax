@@ -1,0 +1,25 @@
+@import url('./generic.css');
+@import url('./media.css');
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../fonts/montserrat.ttf') format('truetype');
+	display: swap;
+}
+
+:root {
+	--primari-color: #010101;
+	--second-color: #F7F7F7;
+	--third-color: #EDEDED;
+	--dark-color: #373737;
+	--accent-color: #B78B57;
+
+	--primari-text-color: #ffffff;
+	--second-text-color: #000000;
+	--third-text-color: #AEAEAE;
+	--accent-text-color: #B78B57;
+	}
+
+	body {
+	font-family: 'Montserrat', sans-serif;
+}

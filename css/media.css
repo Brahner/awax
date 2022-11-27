@@ -1,0 +1,275 @@
+@media (max-width: 1200px){
+
+	.menu__link{
+		font-size: 12px;
+	}
+
+	.home__title{
+		font-size: 58px;
+	}
+
+	.price__card{
+		width: 23%;
+	}
+
+	.scroll__btn{
+		width: 50px;
+		height: 50px;
+	}
+}
+
+@media (max-width: 991px){
+	.header__logo img {
+		height: 40px;
+	}
+
+	.menu__link{
+		font-size: 10px;
+	}
+
+	.home__title{
+		font-size: 48px;
+	}
+
+	.about__wrap{
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.about__desc{
+		margin-top: 40px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.about__text{
+		text-align: center;
+	}
+
+	.price{
+		padding-bottom: 20px;
+	}
+
+	.price__wrap{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.price__card{
+		width: 40%;
+		margin-bottom: 40px;
+	}
+
+	.card__subtitle{
+		font-size: 16px;
+	}
+
+	.footer__wrap{
+		margin-right: 5%;
+	}
+
+	.social__item{
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media (max-width: 767px){
+	.header{
+		padding: 15px 0;
+	}
+
+	.header__logo img {
+		height: 50px;
+	}
+
+	.menu{
+		position: fixed;
+		left: -100%;
+		z-index: 3;
+		height: 100vh;
+		width: 65%;
+		background-color: rgba(0,0,0,.8);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		transition: all .8s;
+	}
+
+	.menu--active{
+		left: 0;
+	}
+
+	.menu__wrap{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		flex-direction: column;
+	}
+
+	.menu__item{
+		border: none;
+		margin-bottom: 10%;
+	}
+
+	.menu__item:hover{
+		border-bottom: none;
+	}
+
+	.menu__link{
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.menu__link:hover{
+		color: var(--accent-text-color);
+	}
+
+	.call__btn, .scroll__btn {
+		padding: 2%;
+	}
+
+	.home{
+		padding-top: 100px;
+	}
+
+	.home__title{
+		font-size: 38px;
+		line-height: 49px;
+	}
+
+	.home__subtitle{
+		font-size: 18px;
+	}
+
+	.about__title, .price__title, .contacts__title{
+		font-size: 26px;
+	}
+
+	.about__subtitle, .price__subtitle, .contacts__subtitle{
+		font-size: 14px;
+	}
+
+	.price__wrap{
+		justify-content: space-between;
+	}
+
+	.price__card{
+		width: 45%;
+	}
+
+	.contacts__wrap{
+		width: 100%;
+	}
+
+	.footer__title{
+		margin: 20px 0;
+	}
+
+	.social__item{
+		width: 30px;
+		height: 30px;
+	}
+
+	.footer__desc{
+		width: 100%;
+	}
+}
+
+@media (max-width: 575px){
+	.call__btn {
+		bottom: -3%;
+	}
+
+	.scroll__btn {
+		top: -5%;
+	}
+
+	.call__btn, .scroll__btn {
+		width: 40px;
+		height: 40px;
+	}
+
+	.call__modal {
+		width: 300px;
+		height: 280px;
+		padding: 40px;
+	}
+
+	.call__modal-done, .contacts__modal{
+		width: 300px;
+		height: 150px;
+	}
+
+	.about__video-w{
+		width: auto;
+		height: 100%;
+	}
+
+	.price__wrap {
+		justify-content: space-around;
+	}
+
+	.price__card {
+		padding: 25px 20px;
+	}
+
+	.contacts {
+		padding: 55px 20px 55px 20px;
+	}
+
+	.contacts__wrap input, textarea{
+		width: 100%;
+	}
+
+	.contacts__name{
+		margin-bottom: 40px;
+	}
+
+	.footer__wrap{
+		width: 100%;
+	}
+
+	.social__item{
+		width: 35px;
+		height: 35px;
+	}
+}
+
+@media (max-width: 425px){
+	.burger {
+		width: 100%;
+	}
+
+	.home__title {
+		font-size: 26px;
+		line-height: 30px;
+	}
+
+	.home__subtitle{
+		font-size: 14px;
+	}
+
+	.carousel-indicators [data-bs-target]{
+		width: 8px;
+		height: 8px;
+	}
+
+	.about__title, .price__title, .contacts__title {
+		font-size: 22px;
+	}
+
+	.price__card {
+		width: 70%;
+	}
+
+	.contacts__name, .contacts__subject{
+		margin-bottom: 25px;
+	}
+
+	.contacts__message {
+		margin-top: 50px;
+	}
+}

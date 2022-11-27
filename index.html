@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<title>Awax</title>
+</head>
+<body>
+	
+	<header class="header">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-1">
+					<div class="header__logo">
+						<a href="#"><img src="./img/logo.png" alt="awax"></a>
+					</div>
+				</div>
+				<nav class="col">
+					<div class="menu">
+						<ul class="menu__wrap">
+							<li class="menu__item"><a href="" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="" class="menu__link">About Us</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Services</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Our projects</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Our team</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Happy clients</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Price</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Some facts</a></li>
+							<li class="menu__item"><a href="" class="menu__link">Contact us</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div class="col-2 d-md-none">
+					<div class="burger">
+						<div class="burger__item"></div>
+						<div class="burger__item"></div>
+						<div class="burger__item"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="home">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div id="carouselExampleCaptions" class="carousel slide home__carousel" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<h1 class="home__title">Design is about <span class="home__title--accent">communication</span></h1>
+								<p class="home__subtitle">call us: +00 0 1234 5678</p>
+								<button class="home__btn mx-auto d-block">
+									GET IN TOUCH!
+								</button>
+							</div>
+							<div class="carousel-item">
+								<h1 class="home__title">Design is about <span class="home__title--accent">communication</span></h1>
+								<p class="home__subtitle">call us: +00 0 1234 5678</p>
+								<button class="home__btn mx-auto d-block">
+									GET IN TOUCH!
+								</button>
+							</div>
+							<div class="carousel-item">
+								<h1 class="home__title">Design is about <span class="home__title--accent">communication</span></h1>
+								<p class="home__subtitle">call us: +00 0 1234 5678</p>
+								<button class="home__btn mx-auto d-block">
+									GET IN TOUCH!
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="call__btn" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><img src="./img/icons/call.svg" alt="перезвони мне"></button>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<div class="row row-cols-1">
+				<div class="col">
+					<h2 class="about__title">ABOUT US</h2>
+					<h3 class="about__subtitle">who we are?</h3>
+				</div>
+				<div class="col">
+					<div class="about__wrap">
+						<div class="about__desc">
+							<p class="about__text">
+								Praesent metus urna, feugiat a placerat vel, elementum at leo. Quisque vel fermentum ipsum. Nulla at facilisis est, vel condimentum ligula. Mauris volutpat vitae risus sed pellentesque. Praesent fermentum neque ac tellus gravida, at varius sem accumsan. Nam porta erat id sapien consectetur. Fusce sed purus eros. Vivamus rhoncus, ipsum in tempus fermentum, orci leo facilisis purus. Nam porta erat id sapien consectetur. Fusce sed purus eros. Vivamus rhoncus, ipsum in tempus fermentum, orci leo facilisis purus.
+							</p>
+							<button class="about__btn">learn MORE</button>
+						</div>
+						<div class="about__video">
+							<iframe class="about__video-w" width="445" height="275" 
+								src="https://www.youtube-nocookie.com/embed/jfKfPfyJRdk"
+								srcdoc="<style>*{padding:0;margin:0;overflow:hidden}
+									html,body{height:100%}img{position:absolute;width:100%;top:0;bottom:0;margin:auto}</style><a href='https://www.youtube-nocookie.com/embed/jfKfPfyJRdk?autoplay=1&controls=0&showinfo=0&modestbranding=1'>
+									<img src='./img/video.png' alt='Demo video'></a>"frameborder="0" allowfullscreen>
+							</iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="price">
+		<div class="container">
+			<div class="row row-cols-1">
+				<div class="col">
+					<h2 class="price__title">Price</h2>
+					<h3 class="price__subtitle">Pricing table</h3>
+				</div>
+				<div class="col">
+					<div class="price__wrap">
+						<div class="price__card">
+							<h5 class="card__title">express</h5>
+							<p class="card__price">$ 9.99</p>
+							<p class="card__subtitle">/month</p>
+							<ul class="card__list">
+								<li class="card__item">Tracking issues</li>
+								<li class="card__item">Add bugs through email</li>
+								<li class="card__item">Notifications</li>
+								<li class="card__item">Time tracking</li>
+								<li class="card__item">Custom views</li>
+							</ul>
+							<button class="card__btn">choose</button>
+						</div>
+						<div class="price__card">
+							<h5 class="card__title">standart</h5>
+							<p class="card__price">$ 14.99</p>
+							<p class="card__subtitle">/month</p>
+							<ul class="card__list">
+								<li class="card__item">Tracking issues</li>
+								<li class="card__item">Add bugs through email</li>
+								<li class="card__item">Notifications</li>
+								<li class="card__item">Time tracking</li>
+								<li class="card__item">Custom views</li>
+							</ul>
+							<button class="card__btn">choose</button>
+						</div>
+						<div class="price__card">
+							<h5 class="card__title">luxe</h5>
+							<p class="card__price">$ 19.99</p>
+							<p class="card__subtitle">/month</p>
+							<ul class="card__list">
+								<li class="card__item">Tracking issues</li>
+								<li class="card__item">Add bugs through email</li>
+								<li class="card__item">Notifications</li>
+								<li class="card__item">Time tracking</li>
+								<li class="card__item">Custom views</li>
+							</ul>
+							<button class="card__btn">choose</button>
+						</div>
+						<div class="price__card">
+							<h5 class="card__title">premium</h5>
+							<p class="card__price">$ 24.99</p>
+							<p class="card__subtitle">/month</p>
+							<ul class="card__list">
+								<li class="card__item">Tracking issues</li>
+								<li class="card__item">Add bugs through email</li>
+								<li class="card__item">Notifications</li>
+								<li class="card__item">Time tracking</li>
+								<li class="card__item">Custom views</li>
+							</ul>
+							<button class="card__btn">choose</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contacts">
+		<div class="container">
+			<div class="row row-cols-1">
+				<div class="col">
+					<h2 class="contacts__title">CONTACT US</h2>
+					<h3 class="contacts__subtitle">our agency located in Melbourne, Australia</h3>
+				</div>
+				<div class="col">
+					<form class="contacts__wrap">
+						<input class="contacts__name" type="text" name="name" id="name" placeholder="Name"/>
+						<input class="contacts__email" type="text" name="email" id="email" placeholder="Email"/>
+						<input class="contacts__subject" type="text" name="subject" id="subject" placeholder="Subjcet"/>
+						<textarea class="contacts__message" name="message" id="message" placeholder="Message"></textarea>
+						<button class="contacts__btn" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">send message</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<button class="scroll__btn"><img src="./img/icons/scroll.svg" alt="перезвони мне"></button>
+		<div class="container">
+			<div class="row">
+				<div class="col-3 col-md-5 col-sm footer__wrap">
+					<div class="social">
+						<div class="social__item"><a href="#"><img src="./img/icons/twitter.svg" alt="twitter"></a></div>
+						<div class="social__item"><a href="#"><img src="./img/icons/instagram.svg" alt="instagram"></a></div>
+						<div class="social__item"><a href="#"><img src="./img/icons/linkedIn.svg" alt="linkedIn"></a></div>
+						<div class="social__item"><a href="#"><img src="./img/icons/facebook.svg" alt="facebook"></a></div>
+						<div class="social__item"><a href="#"><img src="./img/icons/youtube.svg" alt="youtube"></a></div>
+						<div class="social__item"><a href="#"><img src="./img/icons/google.svg" alt="google"></a></div>
+						<div class="social__item"><a href="#"><img src="./img/icons/other.svg" alt="other"></a></div>
+					</div>
+					<div class="footer__title"><a href="#">AWAX © 2016</a></div>
+				</div>
+				<div class="col">
+					<div class="footer__desc">
+						Nulla iaculis enim a magna tempor congue. Sed aliquam dignissim hendrerit. Duis erat nulla, pellentesque at enim in, scelerisque placerat nunc. Nulla vestibulum ex sed neque auctor rutrum. Donec fringilla tincidunt aliquet. Nullam rhoncus urna massa, vulputate congue velit pulvinar suscipit. Mauris laoreet blandit pharetra. Suspendisse rutrum dolor at augue convallis, eget dapibus nunc consequat. Sed diam nulla, elementum non laoreet eu,vulputate urna, at pellentesque risus orci in ante.
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content mx-auto call__modal">
+				<input class="call__modal-name" type="text" name="name" id="name" placeholder="Name"/>
+				<input class="call__modal-tel" type="tel" name="tel" id="tel" placeholder="Telephone"/>
+				<div class="modal-footer border-top-0">
+					<button class="m-0 call__modal-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Call me back!</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered justify-content-center">
+			<div class="modal-content call__modal-done">
+				<h5 class="modal-title text-center call__modal-title" id="exampleModalToggleLabel2">Done!</h5>
+				<div class="modal-body text-center call__modal-subtitle">
+					We will soon get back to you.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered justify-content-center">
+			<div class="modal-content contacts__modal">
+				<h5 class="modal-title text-center contacts__modal-title" id="exampleModalToggleLabel">Thank you!</h5>
+				<div class="modal-body text-center contacts__modal-subtitle">
+					We'll be in touch very soon.
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/script.js"></script>
+</body>
+</html>
